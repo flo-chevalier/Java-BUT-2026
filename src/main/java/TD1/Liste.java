@@ -6,7 +6,7 @@ void main() {
     System.out.println("nombre éléments pairs = " + getNombreElementsPairs(tableau));
     System.out.println("plus grand pair = " + getPlusGrandPair(tableau));
 
-    final List<Integer> tableau2 = creerTableau(10);
+    final List<Integer> tableau2 = creerTableau(12);
     afficherTableau(tableau2);
     afficherTableau(trier(tableau, tableau2));
 }
